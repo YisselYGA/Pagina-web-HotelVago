@@ -135,9 +135,6 @@ VALUES (2002, 2, 1, 'Sencilla', 'Vista al Mar', 50000, 2);
 
 
 SELECT * FROM Habitacion;
-
-
-
 -- Tabla Reserva
 
 CREATE TABLE Reserva
@@ -163,6 +160,9 @@ FOREIGN KEY (idHabitacion_FK) REFERENCES Habitacion (idHabitacion),
 FOREIGN KEY (idUsuario_FK) REFERENCES Usuario (idUsuario)
 
 );
+
+
+
 
 
 
