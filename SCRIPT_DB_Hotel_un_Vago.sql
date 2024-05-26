@@ -161,11 +161,6 @@ FOREIGN KEY (idUsuario_FK) REFERENCES Usuario (idUsuario)
 
 );
 
-
-
-
-
-
 INSERT Reserva(CheckIn, CheckOut, idHabitacion_FK, idUsuario_FK)
 VALUES ('2021-10-15', '2021-10-18', 1001, 2);
 
@@ -176,3 +171,8 @@ VALUES ('2021-10-28', '2021-10-31', 2002, 4);
 
 
 SELECT * FROM Reserva;
+
+
+
+
+
